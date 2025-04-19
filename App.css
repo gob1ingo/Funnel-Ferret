@@ -1,0 +1,31 @@
+.app {
+  text-align: center;
+  padding: 50px;
+  background-color: #1b0320;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #d8ee96;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #8cebd0;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #5ea494;
+}
+
+p{
+  background-color: azure;
+}
