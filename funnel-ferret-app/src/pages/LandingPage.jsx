@@ -11,12 +11,13 @@ function LandingPage() {
     <>
       <div>
         <h1>
-          Welcome to Funnel Ferret!
+          Funnel
         </h1>
         <h2>
-          This is a simple demo of what the concept would look like!
+          Hick start attention. Lock in learning.
         </h2>
         <button onClick={() => navigate('/topics')}>Click to continue</button>
+        <p>Copyright LakerHack 2025</p>
       </div>
     </>
   )
