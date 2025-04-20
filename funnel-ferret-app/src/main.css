@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.selection-button {
+  width: 200px;
+  height: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  margin: 10px;
+}
