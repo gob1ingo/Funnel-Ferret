@@ -76,9 +76,7 @@ function App() {
       case 'home':
         return (
           <div className="home-container">
-            <h1 className="funnel-heading">Funnel</h1>
-            <img src="/path/to/your-image.jpg" alt="Focus Illustration" className="home-image" />
-            <p>Kick start attention. Lock in learning </p>
+            
             <button className="start-button" onClick={() => setCurrentPage('detox')}>Click to Start</button>
           
           </div>
