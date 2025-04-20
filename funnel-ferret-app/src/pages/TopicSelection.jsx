@@ -11,7 +11,7 @@ function TopicSelection() {
     return (
         <div>
             <h1>
-                Which topic would you like to cover?
+                Subjects
             </h1>
             <ul>
                 <button className="selection-button" disabled={true}>Math</button>
