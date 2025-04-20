@@ -5,6 +5,8 @@
   text-align: center;
 }
 
+
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -38,5 +40,107 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: #073136;
 }
+/* Change background color for the entire page */
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-image: url('/src/assets/Start_Screen.png');
+    /* Ensures the whole image is visible without being cut off */
+  background-position: center; 
+
+}
+
+/* Optional: Style the app container to fill the page */
+.app {
+  min-height: 100vh; /* Ensures the app covers the full viewport height */
+  display: flex; /* Centers content */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.oval-container {
+  display: flex;
+  justify-content: space-evenly; /* Ensures equal spacing between the ovals */
+  align-items: center; /* Vertically centers the ovals */
+  padding: 20px; /* Adds padding around the container */
+  height: 50vh; /* Ensures the container has enough space */
+  gap:20px;
+}
+
+.oval {
+  width: 120px;
+  height: 60px;
+  background-color: #4caf50;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.oval:hover {
+  transform: scale(1.1);
+  background-color: #45a049;
+}
+
+.rect-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* Adds spacing between the buttons */
+  margin-top: 20px;
+}
+
+.rect-button {
+  width: 250px;
+  height: 50px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.rect-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.funnel-heading {
+  color: #704834;
+  font-family: 'Madimi One';
+  font-size: 169px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.start-button {
+  background-color: #f9ca24; /* Yellow background */
+  color: #2d3436; /* Dark text for contrast */
+  font-size: 1.2rem; /* Medium font size */
+  font-family: 'Arial', sans-serif; /* Clean sans-serif font */
+  padding: 10px 20px; /* Space inside the button */
+  border: none; /* No border */
+  border-radius: 5px; /* Smooth edges */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+.start-button:hover {
+  background-color: #f8d83a; /* Brighter yellow on hover */
+  transform: scale(1.1); /* Slightly enlarge the button */
+}
+
