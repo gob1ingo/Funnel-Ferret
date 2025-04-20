@@ -1,8 +1,8 @@
-//import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function TopicSelection() {
 
-    //navigate = useNavigate();
+    const navigate = useNavigate();
 
     const paddingStyle = {
         padding:'10px 20px',
@@ -14,10 +14,10 @@ function TopicSelection() {
                 Which topic would you like to cover?
             </h1>
             <ul>
-                <button className="topic-button" onClick={() => console.log("Hello!")}>Math</button>
-                <button className="topic-button">Science</button>
-                <button className="topic-button">English</button>
-                <button className="topic-button">History</button>
+                <button className="selection-button" disabled={true}>Math</button>
+                <button className="selection-button" disabled={true}>Science</button>
+                <button className="selection-button" onClick={() => navigate('/english')}>English</button>
+                <button className="selection-button" disabled={true}>History</button>
             </ul>
         </div>
     )
