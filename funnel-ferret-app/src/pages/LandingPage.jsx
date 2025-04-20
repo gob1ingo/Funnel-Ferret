@@ -3,21 +3,16 @@ import { useNavigate } from 'react-router-dom'
 import reactLogo from '../assets/react.svg'
 import viteLogo from '/vite.svg'
 import '../main.css'
+import funnelFerretLogo from '../assets/Start_Screen.png';
 
 function LandingPage() {
   const navigate = useNavigate();
 
   return (
     <>
-      <div>
-        <h1>
-          Funnel
-        </h1>
-        <h2>
-          Hick start attention. Lock in learning.
-        </h2>
-        <button className="start-button" onClick={() => navigate('/topics')}>Click to continue</button>
-        <p>Copyright LakerHack 2025</p>
+      <div className="no-scroll-container">
+        <img className="landingPageLogo" src={funnelFerretLogo} alt="Funnel Ferret Logo"/>
+          <button className="start-button" onClick={() => navigate('/topics')}>Click to continue</button>
       </div>
     </>
   )

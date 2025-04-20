@@ -13,9 +13,6 @@ function TopicSelection() {
 
     return (
         <>
-            <div>
-                <button img="Ferret Head.svg"></button>
-            </div>
             <div
                 style={{
                     background:"#FFFFFF",
